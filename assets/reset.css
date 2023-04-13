@@ -1,0 +1,55 @@
+/* Reset CSS */
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+}
+
+/* Remove default padding */
+body,
+ol,
+ul {
+  padding: 0;
+}
+
+/* Set default font size and family */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* Remove default list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default border on buttons */
+button {
+  border: none;
+  outline: none;
+}
+
+/* Set box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
