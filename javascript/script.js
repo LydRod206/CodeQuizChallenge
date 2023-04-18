@@ -56,10 +56,12 @@ var quizQuestions = [
   const scoreDisplay = document.getElementById("score");
   const initialsInput = document.getElementById("initials");
   const submitButton = document.getElementById("submit-button");
+  const timerDisplays = document.getElementById("timer");
   
   let currentQuestionIndex;
   let timeLeft;
   let score;
+  let highScores = [];
   
  // Start the quiz
  startButton.addEventListener("click", startQuiz);
@@ -102,7 +104,7 @@ var quizQuestions = [
     if (currentQuestionIndex < quizQuestions.length) {
       displayQuestion();
     } else {
-      endQuiz();
+      endQuiz(); 
     }
   }
   // Start the timer
