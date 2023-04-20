@@ -7,6 +7,7 @@ To start the quiz, open the index.html file in your web browser. Click the "Star
 
 After you finish the quiz or run out of time, your score will be displayed on the screen. You can also enter your initials and save your score to local storage by filling out the form at the bottom of the screen.
 ### Credits
+https://github.com/LydRod206
 
 ### Liscense
-The MIT Liscense applies to this code.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
